@@ -6,7 +6,7 @@ import { Filter } from 'components/Filter/Filter';
 import { ContactList } from 'components/ContactList/ContactList';
 import { AddContactForm } from 'components/Form/Form';
 
-const Contacts = () => {
+export const Contacts = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -21,5 +21,3 @@ const Contacts = () => {
     </>
   );
 };
-
-export default Contacts;
