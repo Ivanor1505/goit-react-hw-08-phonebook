@@ -6,7 +6,6 @@ import { Contact } from 'components/Contact/Contact';
 import { Filter } from 'components/Filter/Filter';
 import { ContactList } from 'components/ContactList/ContactList';
 
-
 const Contacts = () => {
   const dispatch = useDispatch();
 
@@ -15,11 +14,11 @@ const Contacts = () => {
   }, [dispatch]);
 
   return (
-    <div>
+    <>
       <Contact />
       <Filter />
       <ContactList />
-    </div>
+    </>
   );
 };
 
