@@ -1,17 +1,10 @@
-// import { AddContactForm } from './Form/Form';
 import { lazy, useEffect } from 'react';
 import { Route, Routes, Navigate } from 'react-router-dom';
 import { PrivateRoute } from './PrivateRoute';
 import { RestrictedRoute } from './RestrictedRoute';
 import { refreshUser } from 'redux/auth/operations';
 import { useAuth } from 'hooks';
-// import { ContactList } from './ContactList/ContactList';
-// import { Filter } from './Filter/Filter';
-// import { Title, TitleList } from './App.styled';
 import { useDispatch } from 'react-redux';
-// import { fetchContacts } from '../redux/phonebook/operations';
-// import { getError, getLoading } from '../redux/phonebook/selectors';
-// import { Spinner } from './spinner';
 import { Layout } from './Loyout';
 
 const Home = lazy(() => import('pages/home/Home'));
