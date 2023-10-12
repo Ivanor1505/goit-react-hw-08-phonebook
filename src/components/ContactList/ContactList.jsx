@@ -1,8 +1,8 @@
 import React from 'react';
 import { Contact } from 'components/Contact/Contact';
 import { useSelector } from 'react-redux';
-import { getAllContacts } from 'redux/selectors';
-import { getFilter } from 'redux/selectors';
+import { getAllContacts } from 'redux/phonebook/selectors';
+import { getFilter } from 'redux/phonebook/selectors';
 import { List } from './ContactList.styled';
 
 export const ContactList = () => {

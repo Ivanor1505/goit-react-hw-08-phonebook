@@ -8,8 +8,8 @@ import {
   StyledErrorMessage,
 } from './Form.styled';
 import { useDispatch, useSelector } from 'react-redux';
-import { addContact } from 'redux/operations';
-import { getAllContacts } from 'redux/selectors';
+import { addContact } from 'redux/phonebook/operations';
+import { getAllContacts } from 'redux/phonebook/selectors';
 
 const formSchema = Yup.object({
   name: Yup.string()

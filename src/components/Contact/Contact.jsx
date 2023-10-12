@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { deleteContact } from 'redux/operations';
+import { deleteContact } from 'redux/phonebook/operations';
 import { Button, CotactItem } from './Contact.styled';
 
 export const Contact = ({ contact }) => {

@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { changeFilter } from 'redux/filterSlice';
-import { getFilter } from 'redux/selectors';
+import { changeFilter } from 'redux/phonebook/filterSlice';
+import { getFilter } from 'redux/phonebook/selectors';
 import { FilterBox, Input } from './Filter.styled';
 
 export const Filter = () => {
