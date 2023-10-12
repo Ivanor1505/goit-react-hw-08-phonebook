@@ -6,7 +6,7 @@ import { Filter } from 'components/Filter/Filter';
 import { ContactList } from 'components/ContactList/ContactList';
 import { AddContactForm } from 'components/Form/Form';
 
-export const Contacts = () => {
+export default function Contacts() {
   const dispatch = useDispatch();
 
   useEffect(() => {
